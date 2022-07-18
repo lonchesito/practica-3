@@ -1,0 +1,99 @@
+body{
+	background-color: lightgreen;
+	color: black;/*color de texto*/
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: BankGothic Lt Bt,sans-serif;+
+	font-size: 16px;
+	background: #1F8EBE;
+}
+
+.contenedor{
+	width: 90%
+	margin: 20px auto;
+	overflow: hidden;
+}
+header{
+	background: green;
+}
+header nav{
+	width: 100%;
+}
+header nav ul{
+	width: 100%;
+	overflow: hidden;
+	list-style: none;
+}
+header nav ul li{
+	float: left;
+
+}
+header nav ul li a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 15px 20px;
+	color: red;
+}
+header nav ul li a:hover{
+	background: black;
+
+}
+.main{
+	width: 70%;
+	background: white;
+	float: right;
+}
+.main .imagen img{
+	width: 80%;
+	vertical-align:top;
+}
+.main .ref{
+	padding: 40px;
+}
+.main .ref article h1{
+	margin-bottom: 20px;
+	line-height: 15px;
+	color: red;
+
+}
+aside{
+	width: 30%;
+	padding: 20px;
+	color: red;
+	background: black;
+}
+aside .enlaces{
+	margin-bottom: 20px;
+}
+aside .enlaces .titulo{
+	color: lightgreen;
+	border-bottom: 1px solid orange;
+	margin-bottom: 10px;
+}
+aside .enlaces ul li{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+aside .enlaces ul li a{
+	color: red;
+	text-decoration: none;
+}
+aside .enlaces ul li a:hover{
+	color: orange;
+
+}
+aside .enlaces p{
+	line-height: 27px;
+}
+footer{
+	width: 700px;
+	background: lightgreen;
+	color: red;
+	padding: 15px 0;
+	text-align: center;
+}
