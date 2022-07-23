@@ -40,7 +40,52 @@
 		margin-bottom: 20px;
 	}
 	.formulario .sexo .hombre{
-		
+		border-radius: 5px 0 0 5px;
+	}
+	.formulario .sexo .mujer{
+		border-radius: 0 5px 5px 0;
+	}
+	.formulario .label-radio{
+		background: rgba(249,160,63,.4);
+		color: #fff;
+		padding: 10px;
+		text-align: center;
+		width: 49%;
+	}
+	.formulario input[type="radio"]:checked + .lable-radio{
+		background: #f9a03f;
+	}
+	.formulario .terminal{
+		text-align: center;
+		color: #424242
+	}
+	.formulario .terminos label{
+		margin-left: 10px;
+	}
+	.formulario .error{
+		display: none;
+		margin-top: 20px;
+		border-radius: 3px;
+		background: #ce1818;
+		color: #fff;
+		padding: 15px 10px;
+		padding-left: 40px;
+	}
+	.formulario.btn{
+		width: 100%
+		text-align:center;
+		background: #246eb9
+		color:#fff;
+		border: none;
+		display: block;
+		padding: 15px 10px;
+		cursor: pointer;
+		border-radius: 0 0 6px 6px;
+		font-family: 'slabo 27px' serif;
+		font-size: 18px;
+	}
+	.formulario .btn:hover{
+		background: #4357ad;
 	}
 </style>
 <body>
